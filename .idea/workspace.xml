@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b5abb53-7472-4028-98b8-cab3dea76242" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DataStructuresAndAlgorithmAnalysis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/BinaryHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/BinomialQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/CuckooHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/CuckooHashTableClassic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/DisjSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/DisjSetsSlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig01_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig01_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig01_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig02_09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig02_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig02_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig02_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig10_38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig10_40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig10_43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig10_45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig10_46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig10_53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Fig10_63.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/HashFamily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/IntCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/KdTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/LeftistHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/MaxSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/MemoryCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/PairingHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/QuadraticProbingHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/RedBlackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/RemoveEvens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/SeparateChainingHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/SplayTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/StringHashFamily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/SuffixArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/TestIntCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/TestMemoryCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/Treap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/UnderflowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeWin/WordLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/AVLTree/AvlTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/AVLTree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binaryTree/BinaryNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binaryTree/BinarySearchTree.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WBX5kTzQy1OIxrCOJ4V51t5oAz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\github\DataStructuresAndAlgorithmAnalysis\src\tree\AVLTree" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b5abb53-7472-4028-98b8-cab3dea76242" name="Default Changelist" comment="" />
+      <created>1578623781247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578623781247</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="675" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578643193363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="675" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578643193363" />
+    <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578641077077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578641077077" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1578643237779">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578643237779" />
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1578623786151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578623786151" />
+  </component>
+</project>
