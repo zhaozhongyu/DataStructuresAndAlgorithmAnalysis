@@ -1,3 +1,5 @@
+package hash;
+
 import java.util.Random;
 
 public class StringHashFamily implements HashFamily<String>

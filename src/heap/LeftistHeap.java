@@ -1,4 +1,4 @@
-// LeftistHeap class
+package heap;// LeftistHeap class
 //
 // CONSTRUCTION: with a negative infinity sentinel
 //
@@ -11,6 +11,10 @@
 // void merge( rhs )      --> Absorb rhs into this heap
 // ******************ERRORS********************************
 // Throws UnderflowException as appropriate
+/**
+ * 左式堆
+ * */
+
 
 /**
  * Implements a leftist heap.
@@ -101,7 +105,7 @@ public class LeftistHeap<AnyType extends Comparable<? super AnyType>>
     public AnyType findMin( )
     {
         if( isEmpty( ) )
-            throw new UnderflowException( );
+            throw new IndexOutOfBoundsException( );
         return root.element;
     }
 
@@ -112,7 +116,7 @@ public class LeftistHeap<AnyType extends Comparable<? super AnyType>>
     public AnyType deleteMin( )
     {
         if( isEmpty( ) )
-            throw new UnderflowException( );
+            throw new IndexOutOfBoundsException( );
 
         AnyType minItem = root.element;
         root = merge( root.left, root.right );

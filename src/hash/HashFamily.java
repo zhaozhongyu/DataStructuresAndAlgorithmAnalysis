@@ -1,3 +1,4 @@
+package hash;
 
 public interface HashFamily<AnyType>
 {

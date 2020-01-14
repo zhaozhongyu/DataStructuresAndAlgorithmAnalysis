@@ -1,3 +1,9 @@
+package heap;
+
+/**
+ * 二项队列
+ * */
+
 // BinomialQueue class
 //
 // CONSTRUCTION: with no parameters or a single item
@@ -146,7 +152,7 @@ public final class BinomialQueue<AnyType extends Comparable<? super AnyType>>
     public AnyType findMin( )
     {
         if( isEmpty( ) )
-            throw new UnderflowException( );
+            throw new IndexOutOfBoundsException( );
 
         return theTrees[ findMinIndex( ) ].element;
     }
@@ -180,7 +186,7 @@ public final class BinomialQueue<AnyType extends Comparable<? super AnyType>>
     public AnyType deleteMin( )
     {
         if( isEmpty( ) )
-            throw new UnderflowException( );
+            throw new IndexOutOfBoundsException( );
 
         int minIndex = findMinIndex( );
         AnyType minItem = theTrees[ minIndex ].element;

@@ -1,4 +1,4 @@
-// BinarySearchTree class
+package tree;// BinarySearchTree class
 //
 // CONSTRUCTION: with no initializer
 //
@@ -54,7 +54,7 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
     public AnyType findMin( )
     {
         if( isEmpty( ) )
-            throw new UnderflowException( );
+            throw new IndexOutOfBoundsException( );
         return findMin( root ).element;
     }
 
@@ -65,7 +65,7 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
     public AnyType findMax( )
     {
         if( isEmpty( ) )
-            throw new UnderflowException( );
+            throw new IndexOutOfBoundsException( );
         return findMax( root ).element;
     }
 

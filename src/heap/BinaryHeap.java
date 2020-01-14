@@ -1,4 +1,10 @@
-// BinaryHeap class
+package heap;// BinaryHeap class
+
+/**
+ * 堆
+ *
+ * */
+
 //
 // CONSTRUCTION: with optional capacity (that defaults to 100)
 //               or an array containing initial items
@@ -84,7 +90,7 @@ public class BinaryHeap<AnyType extends Comparable<? super AnyType>>
     public AnyType findMin( )
     {
         if( isEmpty( ) )
-            throw new UnderflowException( );
+            throw new IndexOutOfBoundsException( );
         return array[ 1 ];
     }
 
@@ -95,7 +101,7 @@ public class BinaryHeap<AnyType extends Comparable<? super AnyType>>
     public AnyType deleteMin( )
     {
         if( isEmpty( ) )
-            throw new UnderflowException( );
+            throw new IndexOutOfBoundsException( );
 
         AnyType minItem = findMin( );
         array[ 1 ] = array[ currentSize-- ];

@@ -1,4 +1,13 @@
+package hash;
+
 import java.util.Random;
+
+/**
+ * 布谷鸟散列
+ * 在布谷鸟散列中, 假设有N个项, 我们维护两个分别超过半空的表, 且有两个独立的散列函数, 可以把每个项分配到每个表的一个位置.
+ * 布谷鸟散列保持不变的是一个项总是会被存储在这两个位置之一.
+ * 在插入时, 如果遇到表1的位置已经被占, 此时把新的项放入表1, 然后将原表1存储的项移到表2. ---如果表的装填因子小于0.5, 有分析证明, 循环的概率非常低, 替换次数的期望值是一个小常数.
+ **/
 
 // Cuckoo Hash table class
 //
@@ -11,6 +20,7 @@ import java.util.Random;
 // bool contains( x )     --> Return true if x is present
 // void makeEmpty( )      --> Remove all items
 // int  size( )           --> Return number of items
+
 
 
 /**
@@ -274,6 +284,7 @@ public class CuckooHashTable<AnyType>
     }
 
     /**
+     * 查找下一个素数
      * Internal method to find a prime number at least as large as n.
      * @param n the starting number (must be positive).
      * @return a prime number larger than or equal to n.
@@ -290,6 +301,7 @@ public class CuckooHashTable<AnyType>
     }
 
     /**
+     * 判断是否是素数
      * Internal method to test if a number is prime.
      * Not an efficient algorithm.
      * @param n the number to test.
