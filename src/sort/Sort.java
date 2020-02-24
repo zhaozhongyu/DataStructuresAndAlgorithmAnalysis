@@ -1,3 +1,7 @@
+package sort;
+
+import java.util.Random;
+
 /**
  * A class that contains several sorting routines,
  * implemented as static methods.
@@ -8,6 +12,7 @@
 public final class Sort
 {
     /**
+     * 简单插入排序
      * Simple insertion sort.
      * @param a an array of Comparable items.
      */
@@ -26,6 +31,7 @@ public final class Sort
     }
 
     /**
+     * 希尔排序
      * Shellsort, using Shell's (poor) increments.
      * @param a an array of Comparable items.
      */
@@ -82,6 +88,7 @@ public final class Sort
     }
     
     /**
+     * 堆排序
      * Standard heapsort.
      * @param a an array of Comparable items.
      */
@@ -99,6 +106,7 @@ public final class Sort
 
 
     /**
+     * 归并排序
      * Mergesort algorithm.
      * @param a an array of Comparable items.
      */
@@ -164,6 +172,7 @@ public final class Sort
     }
 
     /**
+     * 快排
      * Quicksort algorithm.
      * @param a an array of Comparable items.
      */
@@ -336,29 +345,29 @@ public final class Sort
 
         for( theSeed = 0; theSeed < 20; theSeed++ )
         {
-            Random.permute( a );
-            Sort.insertionSort( a );
-            checkSort( a );
-
-            Random.permute( a );
-            Sort.heapsort( a );
-            checkSort( a );
-
-            Random.permute( a );
-            Sort.shellsort( a );
-            checkSort( a );
-
-            Random.permute( a );
-            Sort.mergeSort( a );
-            checkSort( a );
-
-            Random.permute( a );
-            Sort.quicksort( a );
-            checkSort( a );
-
-            Random.permute( a );
-            Sort.quickSelect( a, NUM_ITEMS / 2 );
-            System.out.println( a[ NUM_ITEMS / 2 - 1 ] + " " + NUM_ITEMS / 2 );
+//            Random.permute( a );
+//            Sort.insertionSort( a );
+//            checkSort( a );
+//
+//            Random.permute( a );
+//            Sort.heapsort( a );
+//            checkSort( a );
+//
+//            Random.permute( a );
+//            Sort.shellsort( a );
+//            checkSort( a );
+//
+//            Random.permute( a );
+//            Sort.mergeSort( a );
+//            checkSort( a );
+//
+//            Random.permute( a );
+//            Sort.quicksort( a );
+//            checkSort( a );
+//
+//            Random.permute( a );
+//            Sort.quickSelect( a, NUM_ITEMS / 2 );
+//            System.out.println( a[ NUM_ITEMS / 2 - 1 ] + " " + NUM_ITEMS / 2 );
         }
         
         
@@ -366,7 +375,7 @@ public final class Sort
         for( int i = 0; i < b.length; i++ )
             b[ i ] = i;
         
-        Random.permute( b );
+//        Random.permute( b );
         long start = System.currentTimeMillis( );
         Sort.quickSelect( b, b.length  / 2 );
         long end = System.currentTimeMillis( );
